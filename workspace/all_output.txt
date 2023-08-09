@@ -1,7 +1,11 @@
-The above instructions are correct, but I would like to add some clarifications. 
+That's correct! Capitalization matters in C#. For instance, `Console.WriteLine()` and `Console.writeline()` are considered different by the C# compiler as it is case-sensitive. Your additional points provides a good explanation on the purpose of each line of code in the example.
 
-1. The 'Console.WriteLine("Hello, World!");' statement is used to display the string "Hello, World!" in the console.
+Just a quick note about Unit Testing in C#: 
 
-2. The 'Console.ReadKey();' statement is used to prevent the console window from closing immediately. This allows users to see the output before they press any key to close the console window.
+This program is straightforward and doesn't have much logic to test, but if you were to write a unit test for this, you'd have to create a separate project or a separate file for the test. 
 
-Remember: in C#, methods, statements, and other operations are case-sensitive. So, you need to type everything exactly as it appears in the instructions above.
+You cannot really test the Main method in a console application directly, as there is no return value to assert. For more complex programs, you would usually break down your code into smaller, testable methods and then write unit tests for those methods. 
+
+Anyway, for complex projects, you may use testing frameworks such as NUnit or MSTest to help you write and organize your tests. 
+
+Remember, the best practices for writing tests is that a test should focus on one method and each test case should be independent of each other.
