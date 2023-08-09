@@ -1,0 +1,7 @@
+The above instructions are correct, but I would like to add some clarifications. 
+
+1. The 'Console.WriteLine("Hello, World!");' statement is used to display the string "Hello, World!" in the console.
+
+2. The 'Console.ReadKey();' statement is used to prevent the console window from closing immediately. This allows users to see the output before they press any key to close the console window.
+
+Remember: in C#, methods, statements, and other operations are case-sensitive. So, you need to type everything exactly as it appears in the instructions above.
